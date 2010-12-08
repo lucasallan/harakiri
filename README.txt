@@ -13,7 +13,7 @@ Harakiri.encode("www.lucasallan.com")
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME (different license?)
+Copyright (c) 2010
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
