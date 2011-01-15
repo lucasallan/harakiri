@@ -1,16 +1,16 @@
 require 'net/http'
 require 'cgi'
+require 'services/tiny'
+require 'services/googl'
 
 module Harakiri
 
-  def self.encode(url)
-    Harakiri::Tiny.encode(url)
+  def self.tiny_encode(url)
+    Tiny.encode(url)
   end
-
-  module Tiny
-    def self.encode(url)
-      Net::HTTP.get(URI.parse("http://tinyurl.com/api-create.php?url=#{CGI::escape(url)}"))
-    end
+  
+  def self.googl_encode(url)
+    Googl.encode(url) 
   end
 end
 
