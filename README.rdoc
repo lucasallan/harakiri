@@ -1,19 +1,18 @@
-= DESCRIPTION:
+== DESCRIPTION:
 harakiri is a simple gem for url shortening, using a tinyurl and googl service
 
 Autor: Lucas Allan Cardoso
 
-= INSTALL:
+== INSTALL:
 gem install harakiri
 
-= USE:
 == Using TinyUrl Service:
   Harakiri.tiny_encode("www.lucasallan.com")
 
 == Using Googl Service:
   Harakiri.googl_encode("www.lucasallan.com")
 
-= LICENSE:
+== LICENSE:
 
 (The MIT License)
 
